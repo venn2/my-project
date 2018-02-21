@@ -1,0 +1,128 @@
+*{
+padding:0px;
+margin: 0px;
+}
+
+body{
+  background-color: #e8ebef;
+}
+
+.navbar ul li{
+  float: left;
+  border-right: 1px solid white;
+
+  }
+
+.navbar ul {
+  padding: 0px;
+  list-style-type:none;
+  margin: 0px;
+  background-color: coral;
+  position: fixed;
+   top: 0;
+   width: 100%;
+
+}
+
+.navbar ul button{
+  border: none;
+  height: 70px;
+  background-color: coral;
+
+}
+
+
+.navbar a{
+  color:white;
+  text-decoration: none;
+  font-size:22px;
+  text-align: center;
+  padding: 22px 16px;
+  display: block;
+}
+
+a:hover{
+background-color: red;
+}
+
+#menu {
+	border: none;
+	padding: 17px 16px;
+}
+
+#ime {
+  float: right;
+  border-left: solid 1px;
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  padding: 22px 16px;
+
+}
+#paragraph-1{
+  margin-top: 130px;
+}
+
+
+.paragraphs p{
+  border: 2px solid black;
+  margin: 20px 150px;
+  background-color: #99ffbb;
+  padding: 20px 0px 0px 20px;
+  max-width: 1960px;
+
+}
+
+
+.drop-button {
+  color:white;
+  text-decoration: none;
+  font-size:22px;
+  text-align: center;
+  padding: 22px 16px;
+  display: block;
+  
+  
+}
+
+.drop-button:hover{
+  background-color: red;
+}
+
+
+.dropdown {
+   position: relative;
+   float: left;
+   
+}
+
+
+.dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: coral;
+   color: white;
+  
+   
+}
+
+
+.dropdown-content p {
+   height: auto;
+   width: 170px;
+   text-decoration: none;
+   display: block;
+   padding-left: 5px;
+}
+
+
+.dropdown-content p:hover {
+  background-color: red;
+}
+
+
+.dropdown:hover .dropdown-content {
+   display: block;
+}
+
+
